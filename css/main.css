@@ -1,0 +1,29 @@
+/**** ELEMENTS ****/
+
+body {
+  background: #333676;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+
+/*** NAME CONTAINER ***/
+
+.name-container {
+  margin-top: 9em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 600px;
+}
+
+.name {
+  font-size: 3em;
+}
+
+.job-title {
+  font-size: 1.5em;
+}
+
+
+/*** CONTACT CONTAINER ***/
