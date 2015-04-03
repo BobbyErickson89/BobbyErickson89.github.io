@@ -11,10 +11,11 @@ body {
 
 .name-container {
   margin-top: 9em;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
-  width: 600px;
+}
+
+.name-container hr {
+  width: 600px
 }
 
 .name {
@@ -26,4 +27,32 @@ body {
 }
 
 
+
 /*** CONTACT CONTAINER ***/
+
+.links {
+  /*width: 30em;*/
+  margin-top: 2em;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  text-align: center;
+}
+
+.links a {
+  color: white;
+  display: inline-block;
+  font-size: 3em;
+  text-decoration: none;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+
+
+/*** RESPONSIVE DESIGN ***/
+
+@media (max-width: 620px) {
+  .name-container hr {
+    display: none;
+  }
+}
