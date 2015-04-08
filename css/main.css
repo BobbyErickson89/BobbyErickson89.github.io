@@ -1,9 +1,8 @@
 /**** ELEMENTS ****/
 
 body {
-  background: #333676;
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: #444;
 }
 
 
@@ -38,15 +37,33 @@ body {
   text-align: center;
 }
 
+
 .links a {
-  color: white;
+  color: #444;
   display: inline-block;
-  font-size: 3em;
+  font-size: 2.5em;
   text-decoration: none;
   margin-left: 0.5em;
   margin-right: 0.5em;
+  margin-bottom: 3em;
+
+  transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
 }
 
+.links a:hover {
+  color: #0084B4;
+}
+
+
+/****** WORK CONTAINER ******/
+
+.work-container {
+  background: #0084B4;
+  color: white;
+}
 
 
 /*** RESPONSIVE DESIGN ***/
