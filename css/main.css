@@ -6,6 +6,20 @@ body {
 }
 
 
+
+/***** HEADER CONTAINER ******/
+
+header {
+  background: #444;
+  padding: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
 /*** NAME CONTAINER ***/
 
 .name-container {
