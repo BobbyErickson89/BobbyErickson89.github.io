@@ -24,6 +24,10 @@ nav a {
   font-size: 1.25em;
 }
 
+.navigation {
+  text-align: right;
+}
+
 
 /*** NAME CONTAINER ***/
 
@@ -89,6 +93,14 @@ nav a {
 /*** RESPONSIVE DESIGN ***/
 
 @media (max-width: 620px) {
+  .name {
+    font-size: 3em;
+  }
+
+  .job-title {
+    font-size: 1.5em;
+  }
+
   .name-container hr {
     display: none;
   }
