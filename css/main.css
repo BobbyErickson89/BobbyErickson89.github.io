@@ -89,6 +89,22 @@ nav a {
   color: white;
 }
 
+.work-text, .work-description {
+  display: inline-block;
+}
+
+.work-description {
+  padding: 4em 0 4em 4em;
+}
+
+.work-text {
+  height: 260px;
+  border: 1px solid white;
+  vertical-align: top;
+  margin-left: 4em;
+  width:650px
+}
+
 
 /*** RESPONSIVE DESIGN ***/
 
