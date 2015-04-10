@@ -99,10 +99,29 @@ nav a {
 
 .work-text {
   height: 260px;
-  border: 1px solid white;
   vertical-align: top;
   margin-left: 4em;
-  width:650px
+  width:650px;
+  font-size: 1.2em;
+  line-height: 1.25;
+  text-align: justify;
+}
+
+.work-links {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.work-links a {
+  color: white;
+}
+
+.work-links a:visited {
+  color:white;
+}
+
+.work-image {
+  border: 1px solid white;
 }
 
 
