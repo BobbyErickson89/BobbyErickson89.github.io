@@ -92,6 +92,15 @@ nav a {
   font-size: 1.25em;
 }
 
+#iron-yard-link {
+  color: #0084B4;
+  text-decoration: none;
+}
+
+#iron-yard-link:hover {
+  text-decoration: underline;
+}
+
 
 
 
@@ -148,6 +157,10 @@ nav a {
   border: 1px solid white;
 }
 
+.mobile-links {
+  display: none;
+}
+
 
 /*** RESPONSIVE DESIGN ***/
 
@@ -181,5 +194,14 @@ nav a {
   .bio {
     font-size: 1em;
     width: 90%;
+  }
+
+  .mobile-links {
+    margin-top: 1em;
+    display: block;
+  }
+
+  .mobile-links a {
+    color: white;
   }
 }
