@@ -69,7 +69,7 @@ nav a {
   text-decoration: none;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
@@ -82,6 +82,19 @@ nav a {
 }
 
 
+
+/******BIO CONTAINER *****/
+
+.bio {
+  width: 600px;
+  text-align: justify;
+  margin: 0 auto 3em auto;
+  font-size: 1.25em;
+}
+
+
+
+
 /****** WORK CONTAINER ******/
 
 .work-container {
@@ -89,18 +102,29 @@ nav a {
   color: white;
 }
 
-.work-text, .work-description {
+.work-text, .work-description, .image-container {
   display: inline-block;
 }
 
+.image-container {
+  border: 1px solid white;
+}
+
+.work-description a {
+  margin-right: 4em;
+}
+
 .work-description {
-  padding: 4em 0 4em 4em;
+  padding: 4em 0 4em 0;
+  /*border: 1px solid white;*/
+  width: 100%;
+  text-align: center;
 }
 
 .work-text {
   height: 260px;
   vertical-align: top;
-  margin-left: 4em;
+  /*margin-left: 4em;*/
   width:650px;
   font-size: 1.2em;
   line-height: 1.25;
@@ -127,7 +151,13 @@ nav a {
 
 /*** RESPONSIVE DESIGN ***/
 
-@media (max-width: 620px) {
+@media (max-width: 1130px) {
+  .work-text {
+    width: 50%;
+  }
+}
+
+@media (max-width: 830px) {
   .name {
     font-size: 3em;
   }
@@ -138,5 +168,18 @@ nav a {
 
   .name-container hr {
     display: none;
+  }
+
+  .work-text {
+    display: none;
+  }
+
+  .work-description a {
+    margin-right: 0;
+  }
+
+  .bio {
+    font-size: 1em;
+    width: 90%;
   }
 }
