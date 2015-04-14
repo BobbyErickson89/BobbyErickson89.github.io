@@ -8,12 +8,12 @@
     <link href="https://fontastic.s3.amazonaws.com/6WiHga3cJsstbEi7b37JZC/icons.css" rel="stylesheet">
     <title>Bobby Erickson</title>
   </head>
-  <body>
+  <body id="home-link">
     <header>
       <nav class="navigation">
-        <a href="/home">Home</a>
-        <a href="/work">Work</a>
-        <a href="/contact">Contact</a>
+        <a href="#">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
     <div class="name-container">
@@ -49,12 +49,13 @@
       <a id="iron-yard-link" href="http://theironyard.com/">The Iron Yard</a> coding school in Durham, NC.  I am currently looking for a position in
       the Raleigh/Durham area where I can continue to develop my skills as a programmer.
       When I'm not on my computer, I enjoy playing guitar, discovering new music,
-      and going to Carolina Hurricanes games hoping to be lucky enough to catch a
-      rare win.  So if you have any opportunities you think I'd be a good fit for, I'd
+      and going to Carolina Hurricanes games hoping to see a rare win.  So if you have any opportunities you think I'd be a good fit for, I'd
       love to hear from you.
     </div>
 
-    <div class="work-container">
+    <div id="portfolio" class="work-container">
+
+      <h1 class="section-header">Portfolio</h1>
 
       <div class="work-description">
         <a href="http://health-accountable.herokuapp.com"><img class="work-image" src="http://i.imgur.com/vbNRqZp.png" height="325" width="200"></img></a>
@@ -140,8 +141,44 @@
         </div>
       </div>
 
+    </div>
+
+    <div id="contact" class="contact-information">
+
+      <h1 id="contact-header" class="section-header">Contact</h1>
+
+      <div class="contact-links">
+        <a href="mailto:ericksonr07@gmail.com">
+          <div class="icon-letter-mail icon">
+            <span>ericksonr07@gmail.com</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/BobbyErickson89">
+          <div class="icon-fontawesome-webfont icon">
+            <span>BobbyErickson89</span>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/pub/bobby-erickson/7a/2a8/bab">
+          <div class="icon-linkedin-alt icon">
+            <span>Bobby Erickson</span>
+          </div>
+        </a>
+
+        <a href="https://twitter.com/bobbyerickson89">
+          <div class="icon-twitter icon">
+            <span>@bobbyerickson89</span>
+          </div>
+        </a>
+      </div>
+
+
+
 
     </div>
+
+    <script src="js/scroll.js"></script>
 
   </body>
 </html>

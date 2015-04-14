@@ -15,17 +15,25 @@ body {
 
 header {
   background: #444;
-  padding: 1em;
+  padding: 1em 0 1em 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav a {
   color: white;
   text-decoration: none;
   font-size: 1.25em;
+  margin-left: 2em;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #0084B4;
 }
 
 .navigation {
-  text-align: right;
+  text-align: left;
 }
 
 
@@ -109,6 +117,12 @@ nav a {
 .work-container {
   background: #0084B4;
   color: white;
+  padding-top: 5em;
+}
+
+.section-header {
+  font-size: 3em;
+  text-align: center;
 }
 
 .work-text, .work-description, .image-container {
@@ -162,6 +176,42 @@ nav a {
 }
 
 
+
+/****CONTACT INFORMATION*****/
+
+.contact-information {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+#contact-header {
+  padding-bottom: 2em;
+}
+
+.contact-links {
+  text-align: left;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-links a {
+  font-size: 1.75em;
+  text-decoration: none;
+}
+
+.icon {
+  margin-bottom: 1.25em;
+  color: #0084B4;
+}
+
+.icon span {
+  margin-left: 2em;
+}
+
+
+
+
 /*** RESPONSIVE DESIGN ***/
 
 @media (max-width: 1130px) {
@@ -177,7 +227,7 @@ nav a {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
   .name {
     font-size: 3em;
   }
