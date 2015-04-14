@@ -170,7 +170,14 @@ nav a {
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 915px) {
+  .work-text {
+    width: 40%;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 750px) {
   .name {
     font-size: 3em;
   }
