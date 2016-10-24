@@ -135,12 +135,9 @@ nav a:hover {
   display: inline-block;
 }
 
-.image-container {
-  border: 1px solid white;
-}
-
-.work-description a {
+.work-description a, img {
   margin-right: 4em;
+  border: none;
 }
 
 .work-description {
@@ -174,7 +171,8 @@ nav a:hover {
 }
 
 .work-image {
-  border: 1px solid white;
+  /*border: 1px solid white;*/
+  box-shadow: 5px 5px 10px #111;
 }
 
 .mobile-links {
