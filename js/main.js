@@ -1,6 +1,4 @@
 (function(){
-  $('#portfolio').hide();
-  $('#contact').hide();
 
   $('.navigation a').click(function(){
     var nav_link = $(this).text();
