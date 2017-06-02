@@ -2,196 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
-    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-    <link href="https://fontastic.s3.amazonaws.com/6WiHga3cJsstbEi7b37JZC/icons.css" rel="stylesheet">
     <title>Bobby Erickson</title>
+
+    <link href="node_modules/normalize.css/normalize.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
   </head>
-  <body id="home-link">
-    <header>
-      <nav class="navigation">
-        <a href="#">Home</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+  <header>
+    <nav id="name-container">
+      <h2>Bobby Erickson</h2>
+      <h4>Web Developer</h4>
+    </nav>
 
-    <!-- <div id="update">
-      Thanks for checking out my portfolio!  I'm currently updating it
-      and it should be finished by the end of October 2016.
-    </div> -->
-    <div id="home">
-      <div class="name-container">
-        <div class="name">
-          Bobby Erickson
-        </div>
-        <div class="job-title">
-          Front End Developer
-        </div>
-        <hr size=1>
-      </div>
+    <nav id="nav-links">
+      <a href="#">Work</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
 
-      <div class="links">
-        <a href="mailto:ericksonr07@gmail.com">
-            <div class="icon-letter-mail"></div>
-        </a>
-
-        <a href="https://github.com/BobbyErickson89">
-          <div class="icon-fontawesome-webfont"></div>
-        </a>
-
-        <a href="https://www.linkedin.com/pub/bobby-erickson/7a/2a8/bab">
-          <div class="icon-linkedin-alt"></div>
-        </a>
-
-        <a href="https://docs.google.com/document/d/1zcp3aQF04oD7YMiUfNi4nA-5_i1iNozlpdu84MI6Zb8/edit?usp=sharing">
-          <div class="icon-files"></div>
-        </a>
-      </div>
-
-      <div class="bio">
-        <!-- Hi, I'm Bobby and I am a Web Developer and graduate of
-        <a id="iron-yard-link" href="http://theironyard.com/">The Iron Yard</a> coding school in Durham, NC.  I am currently looking for a position in
-        the Raleigh/Durham area where I can continue to develop my skills as a programmer.
-        When I'm not on my computer, I enjoy playing guitar, discovering new music,
-        and going to Carolina Hurricanes games hoping to see a rare win.  So if you have any opportunities you think I'd be a good fit for, I'd
-        love to hear from you. -->
-        Hi, I'm Bobby and I am a Web Developer in Raleigh, NC.  I thrive
-        off of building sites that are both intuitive and eye-catching.  I am constantly
-        looking to develop my skills as a programmer and learn from others.  When
-        I'm not basking in the glow of a monitor, I enjoy discovering new music,
-        playing guitar, and checking out local sports.  If you have any opportunities
-        that you think I'd be a good fit for, I'd love to hear from you.
-      </div>
-    </div>
-
-    <div id="portfolio" class="work-container" hidden>
-
-      <h1 class="section-header">Portfolio</h1>
-
-      <div class="work-description">
-        <img class="work-image" src="images/ha-1.png" height="325" width="200"></img>
-        <div class="mobile-links">
-          <a class="site-link" href="http://health-accountable.herokuapp.com">Live Site</a><br>
-          <a href="https://github.com/health-accountable/health-accountable">Source Code</a>
-        </div>
-        <div class="work-text">
-          Health Accountable is a mobile-first application designed to help you reach your
-          exercise goals by transforming your friends and family into virtual workout
-          partners who hold you accountable for your health.  On days you don’t work out,
-          your accountability contacts will get a text notifying them that you
-          failed to workout that day, helping keep you on track to reach your fitness goals.
-          I worked in an agile development cycle with a team of Ruby developers
-          on this project and it was presented as part of The Iron Yard's Demo Day.
-          I was responsible for the design and user interface of the site.  Some of the
-          technologies I used on this project were HTML5, CSS3, Javascript, jQuery,
-          and Moment.js.
-          <div class="work-links">
-            <a href="https://github.com/health-accountable/health-accountable">Source Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="work-description">
-        <a href="http://bobbyerickson89.github.io/memory-game/newgame.html"><img class="work-image" src="http://i.imgur.com/A7lsQev.png" height="260" width="310"></img></a>
-        <div class="mobile-links">
-          <a class="site-link" href="http://bobbyerickson89.github.io/memory-game/newgame.html">Live Site</a><br>
-          <a href="https://github.com/BobbyErickson89/memory-game">Source Code</a>
-        </div>
-        <div class="work-text">
-          One of our first assignments at the Iron Yard was to create a memory/matching
-          game.  We originally made this site with just HTML and CSS, but we went back
-          to it later in the cohort to implement Javascript and jQuery to get it functioning.
-          The original purpose of this project was to help us better understand CSS animations
-          as well as understanding a grid's aspect ratios.  It was also useful to have a project
-          to go back to later in the semester and utilize the Javascript skills we had acquired
-          to make a functional game.
-          <div class="work-links">
-            <a class="site-link" href="http://bobbyerickson89.github.io/memory-game/newgame.html">Live Site</a><br>
-            <a href="https://github.com/BobbyErickson89/memory-game">Source Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="work-description">
-        <a href="https://tiy-resourceful.herokuapp.com/"><img class="work-image" src="http://i.imgur.com/HfQyAYC.png" height="175" width="320"></img></a>
-        <div class="mobile-links">
-          <a class="site-link" href="https://tiy-resourceful.herokuapp.com/">Live Site</a><br>
-          <a href="https://github.com/zachbradshaw/reshare">Source Code</a>
-        </div>
-        <div class="work-text">
-          (resource)ful was my first project utilizing Angular. It is meant to be a
-          competitor site to Reddit or Hacker News.  The main purpose of this assignment
-          was to become familiar with building a single page Angular application.
-          We also implemented routing on the site so that different pages (such as
-          the comments page, post new link page, etc.) could be present.
-
-          <div class="work-links">
-            <a class="site-link" href="https://tiy-resourceful.herokuapp.com/">Live Site</a><br>
-            <a href="https://github.com/zachbradshaw/reshare">Source Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="work-description">
-        <a href="http://bobbyerickson89.github.io/week2/hangman.html"><img class="work-image" src="http://i.imgur.com/t3Ek1Uo.png" height="175" width="320"></img></a>
-        <div class="mobile-links">
-          <a class="site-link" href="http://bobbyerickson89.github.io/week2/hangman.html">Live Site</a><br>
-          <a href="https://github.com/BobbyErickson89/week2">Source Code</a>
-        </div>
-        <div class="work-text">
-          Hangman was my first assignment using Javascript at The Iron Yard.  This project
-          was implemented without the use of jQuery, which definitely helped us better
-          understand how to manipulate the DOM through just a basic understanding of
-          Javascript.  Along with JS, this project also utilized HTML5 and CSS3.
-
-          <div class="work-links">
-            <a class="site-link" href="http://bobbyerickson89.github.io/week2/hangman.html">Live Site</a><br>
-            <a href="https://github.com/BobbyErickson89/week2">Source Code</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div id="contact" class="contact-information" hidden>
-
-      <h1 id="contact-header" class="section-header">Contact</h1>
-
-      <div class="contact-links">
-        <a href="mailto:ericksonr07@gmail.com">
-          <div class="icon-letter-mail icon">
-            <span>ericksonr07@gmail.com</span>
-          </div>
-        </a>
-
-        <a href="https://github.com/BobbyErickson89">
-          <div class="icon-fontawesome-webfont icon">
-            <span>BobbyErickson89</span>
-          </div>
-        </a>
-
-        <a href="https://www.linkedin.com/pub/bobby-erickson/7a/2a8/bab">
-          <div class="icon-linkedin-alt icon">
-            <span>Bobby Erickson</span>
-          </div>
-        </a>
-
-        <a href="https://docs.google.com/document/d/1zcp3aQF04oD7YMiUfNi4nA-5_i1iNozlpdu84MI6Zb8/edit?usp=sharing">
-          <div class="icon-files icon">
-            <span>Resume</span>
-          </div>
-        </a>
-      </div>
-
-
-
-
-    </div>
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+  </header>
+  <body>
 
   </body>
 </html>
