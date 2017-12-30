@@ -5,14 +5,9 @@
     <title>Bobby Erickson</title>
 
     <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
-    <link href="node_modules/flickity/dist/flickity.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
-    <script src="node_modules/flickity/dist/flickity.pkgd.min.js"></script>
-    <script src="js/main.js"></script>
   </head>
 
   <header>
@@ -22,23 +17,21 @@
     </nav>
 
     <nav id="nav-links">
-      <a href="#!/work">Work</a>
+      <a href="#">Work</a>
       <a href="#">About</a>
       <a href="#">Contact</a>
     </nav>
 
   </header>
 
-  <body ng-app="testApp">
-    <div ng-view>
+  <body>
+    <section id="about-section">
+      <div class="about-container">
 
-    </div>
+      </div>
+    </section>
   </body>
 
-  <script type="text/ng-template" id="views/work.html">
-    <div>
-      Here's some of my work
-    </div>
-  </script>
+  <script src="js/main.js"></script>
 
 </html>

@@ -7,7 +7,7 @@
 
 header {
   border-bottom: 1px solid gray;
-  margin: 4em 6em 0 6em;
+  margin: 2em 4em 0 4em;
   padding-bottom: 1em;
   max-width: 1200px;
 }
@@ -43,4 +43,8 @@ header nav {
   color: #444;
 }
 
-/* BODY */
+/* ABOUT */
+/*.about-container {*/
+  /*border: 1px solid black;*/
+/*}*/
+
