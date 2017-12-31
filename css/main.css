@@ -2,6 +2,25 @@ body {
   font-family: Nunito, sans-serif;
 }
 
+.header-container {
+  text-align: center;
+}
+
+.section-header {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 5px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #444444;
+  display: inline-block;
+}
+
+.content {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 80px;
+}
+
 /* INTRO SECTION */
 
 .intro-section {
@@ -24,7 +43,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-h1 {
+.intro-header {
   font-size: 3em;
   margin-bottom: 100px;
 }
@@ -66,4 +85,13 @@ h1 {
 
 .nav-bar a:hover {
   border-bottom: 1px solid #00C3C8;
+}
+
+/* ABOUT SECTION */
+.about-paragraph {
+  display: inline-block;
+  width: 40%;
+  text-align: justify;
+  font-size: 1.1em;
+  line-height: 1.1;
 }
