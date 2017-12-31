@@ -7,7 +7,7 @@ body {
 }
 
 .section-header {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 80px;
   padding: 5px;
   text-transform: uppercase;
@@ -88,10 +88,40 @@ body {
 }
 
 /* ABOUT SECTION */
-.about-paragraph {
+.about-paragraph, .skills {
   display: inline-block;
-  width: 40%;
+}
+
+.about-paragraph {
+  width: 45%;
   text-align: justify;
   font-size: 1.1em;
   line-height: 1.1;
+}
+
+.skills {
+  float: right;
+  width: 45%;
+}
+
+.skills h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skills img {
+  height: 90px;
+  width: 90px;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-icon-row {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.skills {
+  margin-top: -20px;
 }
