@@ -1,5 +1,6 @@
 body {
   font-family: Nunito, sans-serif;
+  color: #444444;
 }
 
 .header-container {
@@ -11,14 +12,18 @@ body {
   margin-bottom: 80px;
   padding: 5px;
   text-transform: uppercase;
-  border-bottom: 1px solid #444444;
+  border-bottom: 1px solid lightseagreen;
   display: inline-block;
 }
 
 .content {
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
+}
+
+.bg-grey {
+  background-color: #F1F1F2;
 }
 
 /* INTRO SECTION */
@@ -112,8 +117,6 @@ body {
 .skills img {
   height: 90px;
   width: 90px;
-  margin: 0;
-  padding: 0;
 }
 
 .skill-icon-row {
@@ -124,4 +127,34 @@ body {
 
 .skills {
   margin-top: -20px;
+}
+
+/* PORTFOLIO SECTION */
+.work-preview-row {
+  text-align: center;
+}
+
+.work-preview {
+  height: 200px;
+  width: 350px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#cisco-img {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  float: left;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.work-cisco-bg {
+  background-color: white;
+}
+
+.work-health-accountable-bg {
+  background-color: #FF605E
 }
