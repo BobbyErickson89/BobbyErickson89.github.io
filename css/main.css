@@ -149,6 +149,17 @@ body {
   display: inline-block;
 }
 
+.work-preview:hover {
+  cursor: pointer;
+}
+
+.work-preview:hover > .overlay {
+  width:100%;
+  height:100%;
+  background-color:#000;
+  opacity:0.1;
+}
+
 .mockup-image {
   position: relative;
   float: left;
