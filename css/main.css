@@ -193,3 +193,15 @@ body {
 .work-container {
   font-size: 0;
 }
+
+/* CONTACT SECTION */
+
+.contact-icons {
+  text-align: center;
+}
+
+.contact-icons img {
+  display: inline-block;
+  margin: 20px;
+
+}
